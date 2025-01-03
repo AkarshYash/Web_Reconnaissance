@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recon Tool</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Basic styles for the layout */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header,
+      footer {
+        background-color: #f4f4f4;
+        padding: 10px 20px;
+        text-align: center;
+      }
+      header button,
+      header a {
+        margin: 5px;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      header a:hover,
+      header button:hover {
+        background-color: #0056b3;
+      }
+      main {
+        padding: 20px;
+        text-align: center;
+      }
+      input[type="text"] {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #218838;
+      }
+      #about-info {
+        display: none;
+        margin-top: 20px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+      }
+      #about-info.active {
+        display: block;
+      }
+      footer {
+        font-size: 0.9em;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <button
+        onclick="document.getElementById('about-info').classList.toggle('active')"
+      >
+        About
+      </button>
+      <a href="https://www.linkedin.com/in/akarsh-chaturvedi-259271236" target="_blank">LinkedIn</a>
+      <a href="https://github.com/AkarshYash" target="_blank">GitHub</a>
+      <a href="https://akarshyash.github.io/Akarsh-potfolio/" target="_blank">Portfolio</a>
+    </header>
+    <main>
+      <input type="text" id="url" placeholder="Enter website URL" />
+      <button>Submit</button>
+      <div id="result"></div>
+      <div id="about-info">
+        <h2>About This Tool</h2>
+        <pre>
+            The Recon Tool is a web-based application designed for ethical reconnaissance purposes. It provides users with essential website information such as Whois details and subdomain enumeration. This tool is developed with simplicity and efficiency in mind, aiming to assist cybersecurity enthusiasts and professionals in gathering publicly available data for authorized purposes.
+            Purpose  
+            The Recon Tool is built to:  
+            - Help cybersecurity professionals perform preliminary reconnaissance for security assessments.  
+            - Provide domain-related details, including registrar information, creation dates, and expiration dates.  
+            - Demonstrate how Python can power backend logic for reconnaissance in a secure and ethical manner.  
+            - Serve as a learning project to understand web development and cybersecurity integration.  
+            
+            <h3>Key Features</h3>  
+            <h4>1. Whois Lookup:</h4>  
+               - Extracts information about the domain name, registrar, and registration dates.  
+               - Useful for understanding the ownership and lifecycle of a domain.  
+            
+            2. Subdomain Enumeration:  
+               - Returns a list of subdomains (currently dummy data for demonstration purposes).  
+               - Can be extended with actual subdomain enumeration logic using tools like dnspython or external APIs.
+        </pre>
+      </div>
+    </main>
+    <footer>
+      <marquee behavior="" direction=""> Disclaimer: This website is only for ethical purposes to test websites
+        by authorized persons.</marquee>
+      <p>&copy; Akarsh Chaturvedi</p>
+    </footer>
+  </body>
+</html>
