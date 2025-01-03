@@ -98,14 +98,14 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ---
 
-## Developer Info![Screenshot 2025-01-03 235615](https://github.com/user-attachments/assets/d0519056-8563-4c94-a94e-b6a2916a84a2)
+## Developer Info!
 
 
 **Akarsh Chaturvedi**  
 - [LinkedIn](https://www.linkedin.com/in/akarsh-chaturvedi-259271236)
 - [GitHub](https://github.com/AkarshYash)
 - [Portfolio](https://akarshyash.github.io/Akarsh-potfolio/)
-
+- Kalki !>0
 ---
 
 ## Disclaimer
